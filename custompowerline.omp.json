@@ -7,18 +7,11 @@
       "alignment": "left",
       "segments": [
        {
-          "background": "#ffffff",
-          "foreground": "#000000",
+          "foreground": "#ffffff",
           "leading_diamond": "\ue0b6",
           "style": "plain",
           "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
           "type": "os"
-        },
-        {
-          "foreground": "#ffffff",
-          "style": "plain",
-          "template": " {{ .UserName }}@{{ .HostName }} ",
-          "type": "session"
         },
         {
           "background": "#91ddff",
